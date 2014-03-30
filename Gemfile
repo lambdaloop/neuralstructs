@@ -8,8 +8,8 @@ gem "redcarpet"
 
 gem "jekyll-sass"
 
-gem "rack-contrib", "~> 1.1.0"
-gem "rack-rewrite", "~> 1.3.3"
+gem "rack-contrib"
+gem "rack-rewrite"
 
 gem "RedCloth", "~> 4.2.2"
 
