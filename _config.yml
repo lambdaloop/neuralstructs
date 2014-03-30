@@ -1,0 +1,7 @@
+permalink:     none
+paginate_path: 'page:num'
+exclude: [config.ru, Gemfile, Gemfile.lock, LICENSE.txt, Procfile, Rakefile, README.md, vendor]
+lsi: true
+encoding: utf-8
+
+pygments: true
