@@ -15,6 +15,9 @@ gem "RedCloth", "~> 4.2.2"
 
 gem "puma"
 
+gem 'jekyll-press'
+
+
 # group :development do
 #   gem "chronic"
 #   gem "foreman", "~> 0.63"

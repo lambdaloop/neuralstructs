@@ -7,11 +7,9 @@
 }
 
 .highlight {
-  //background-color: #efefd9;
   border-radius: 2px;
   border: 1px solid #d0d0d0;
 }
-
 
 .highlight .c { color: #999988; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
