@@ -1,12 +1,12 @@
 ---
 layout: default
-title: lambdaloop
+title: Neural Structures
 ---
 <div id="home">
-  <h1>Writings</h1>
+  <h1>Series</h1>
   <ul class="posts">
     {% for cat in site.categories %}
-    <li><a name="{{ category | first }}">{{ cat[0]  }}</a>
+    <li>{{ cat[0] }}
       <ul>
         {% for post in cat[1] %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -15,4 +15,4 @@ title: lambdaloop
     </li>
     {% endfor %}
   </ul>
-</div>    
+</div>      
