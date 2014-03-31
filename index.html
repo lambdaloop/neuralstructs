@@ -6,7 +6,7 @@ title: Neural Structures
   <h1>Series</h1>
   <ul class="posts">
     {% for cat in site.categories %}
-    <li>{{ cat[0] }}
+    <li>{{ cat[1][0].cat }}
       <ul>
         {% for post in cat[1] %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
@@ -15,4 +15,4 @@ title: Neural Structures
     </li>
     {% endfor %}
   </ul>
-</div>      
+</div>       

@@ -9,6 +9,7 @@
 .highlight {
   border-radius: 2px;
   border: 1px solid #d0d0d0;
+  background-color: white;
 }
 
 .highlight .c { color: #999988; font-style: italic; }
