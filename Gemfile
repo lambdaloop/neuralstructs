@@ -13,10 +13,12 @@ gem "rack-rewrite"
 
 gem "RedCloth", "~> 4.2.2"
 
-gem "puma"
+gem 'jekyll-scholar'
 
-gem 'jekyll-press'
-
+group :production do
+  gem 'jekyll-press'
+  gem "puma"
+end
 
 # group :development do
 #   gem "chronic"

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Intro to VOR
-category: Vestibulo-ocular reflex
-cat: VOR
+title: "Intro to VOR"
+category: VOR
+cat: Vestibulo-ocular reflex
 ---
 Hello world!
 
