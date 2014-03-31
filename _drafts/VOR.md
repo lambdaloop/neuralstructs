@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Intro to VOR
-category: VOR
+category: Vestibulo-ocular reflex
 cat: VOR
 ---
 Hello world!
@@ -49,4 +49,4 @@ freq = angle(eVal) / (2 * pi);
 
 
 And here is an image:
-![Vestibulo-ocular reflex](/images/VOR.png) 
+![Vestibulo-ocular reflex](/images/VOR.png)  

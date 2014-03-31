@@ -1,4 +1,4 @@
-permalink:     none
+permalink:     /:categories/:title
 paginate_path: 'page:num'
 exclude: [config.ru, Gemfile, Gemfile.lock, LICENSE.txt, Procfile, Rakefile, README.md, vendor]
 lsi: false
@@ -8,7 +8,7 @@ pygments: true
 
 # # # sass defaults
 sass:
-    style:  expanded  # nested|expanded|compact|compressed
+    style:  nested  # nested|expanded|compact|compressed
     deploy_style: compressed  # nested|expanded|compact|compressed
     # "deploy_style:" is used only for building the site
     # (ie: not using the --watch flag)

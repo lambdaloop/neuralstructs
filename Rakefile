@@ -55,5 +55,5 @@ end
 
 desc "Launch preview environment"
 task :preview do
-  system "bundle exec jekyll serve --watch --future --drafts"
+  system "bundle exec jekyll serve --watch --future --drafts --port 3000"
 end # task :preview
