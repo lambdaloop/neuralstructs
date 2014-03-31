@@ -19,9 +19,3 @@ group :production do
   gem 'jekyll-press'
   gem "puma"
 end
-
-# group :development do
-#   gem "chronic"
-#   gem "foreman", "~> 0.63"
-# end
-
