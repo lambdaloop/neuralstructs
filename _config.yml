@@ -4,7 +4,7 @@ exclude: [config.ru, Gemfile, Gemfile.lock, LICENSE.txt, Procfile, Rakefile, REA
 lsi: false
 encoding: utf-8
 
-pygments: true
+highlights: true
 
 # # # sass defaults
 sass:
